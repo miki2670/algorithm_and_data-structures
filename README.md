@@ -1,2 +1,2 @@
-# algorithm_and_data-structures
+# Algoritmer og datastrukturer
 Repo til Kursus i Algoritmer og datastrukturer - Syddansk Universitet
