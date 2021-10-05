@@ -4,10 +4,13 @@ public class Main {
 
         LinkedList linkedList = new LinkedList();
 
-        linkedList.addNode(1);
-        linkedList.addNode(2);
-        linkedList.addNode(3);
-        linkedList.addNode(4);
+        linkedList.addNodeToTail(1);
+        linkedList.addNodeToTail(2);
+        linkedList.addNodeToTail(3);
+        linkedList.addNodeToTail(4);
+        linkedList.addNodeToTail(5);
+        linkedList.addNodeToHead(6);
+        linkedList.inList(3);
 
         linkedList.display();
     }
