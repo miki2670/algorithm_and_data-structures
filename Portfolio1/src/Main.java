@@ -1,17 +1,18 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        int[][] input = {{7,1},{12,4},{14,6},{9,4},{1,6},{1,1},{2,2},{3,3},{4,4},{1,2},{2,4},{3,6},{4,8}};
+        int[][] input1 = {{7,1},{12,4},{14,6},{9,4},{1,6},{1,1},{2,2},{3,3},{4,4},{1,2},{2,4},{3,6},{4,8}};
 
-        ArrayList<int[]> pairs = new ArrayList<>();
+        List<int[]> pairs = new ArrayList<>();
 
-        for (int i = 0; i < input.length; i++) {
-            if (input[i][0] == input[i][1]) {
-                pairs.add(new int[] {input[i][0], input[i][1]});
+        for (int i = 0; i < input1.length; i++) {
+            if (input1[i][0] == input1[i][1]) {
+                pairs.add(new int[] {input1[i][0], input1[i][1]});
             }
         }
 
