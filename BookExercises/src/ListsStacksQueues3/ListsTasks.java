@@ -64,13 +64,15 @@ public class ListsTasks {
 
     // Task 3.3
     // Implement the contains routine for MyLinkedList.
-    public boolean contains(AnyType x) {
-        Node<AnyType> p = beginMarker.next;
+    /*public boolean contains(int x) {
+        MyLinkedList.NodeMyLinkedList p = MyLinkedList.beginMarker.next;
 
         while (p != endMarker && !(p.data.equals(x))) {
             p = p.next;
         }
 
         return (p != endMarker);
-    }
+    }*/
+
+
 }
