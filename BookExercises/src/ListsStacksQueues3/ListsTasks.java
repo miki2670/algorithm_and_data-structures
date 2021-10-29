@@ -2,7 +2,7 @@ package ListsStacksQueues3;
 
 import java.util.Iterator;
 
-public class Lists {
+public class ListsTasks {
 
     // Task 3.1
     // You are given a list, L, and another list, P, containing integers sorted in ascending
@@ -36,7 +36,7 @@ public class Lists {
     // b. Doubly linked lists.
 
     // a. singly linked list
-    public void swapWithNext(Node beforep) {
+    public void swapWithNextSingly(Node beforep) {
         Node p, afterp;
 
         p = beforep.next;
@@ -45,5 +45,32 @@ public class Lists {
         p.next = afterp.next;
         beforep.next = afterp;
         afterp.next = p;
+    }
+
+    // b. Doubly linked lists.
+    public void swapWithNextDoubly(Node p) {
+        Node beforep, afterp;
+
+        beforep = p.prev;
+        afterp = p.next;
+
+        p.next = afterp.next;
+        beforep.next = afterp;
+        afterp.next = p;
+        p.next.prev = p;
+        p.prev = afterp;
+        afterp.prev = beforep;
+    }
+
+    // Task 3.3
+    // Implement the contains routine for MyLinkedList.
+    public boolean contains(AnyType x) {
+        Node<AnyType> p = beginMarker.next;
+
+        while (p != endMarker && !(p.data.equals(x))) {
+            p = p.next;
+        }
+
+        return (p != endMarker);
     }
 }

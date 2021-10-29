@@ -27,7 +27,9 @@ public class LinkedListCustom {
             n = n.next;
         }
         // hvis der ingen næste node er
+
         n.next = node;
+        node.prev = n;
     }
 
     public Node getNode(int data) {
