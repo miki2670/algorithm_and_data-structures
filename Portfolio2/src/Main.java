@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // TEST:
+        //TEST from task description:
         Tree tree = new Tree();
         System.out.println("Test: " + tree.minimum_steps(8,8, 4, 4, 3,2));
 
