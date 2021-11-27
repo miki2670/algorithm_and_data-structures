@@ -1,17 +1,13 @@
 public class Node {
+
     int x;
     int y;
-    int dis;
-    Node left;
-    Node right;
+    int distance;
 
-    public Node(int x, int y, int dis) {
+    public Node(int x, int y, int distance) {
         this.x = x;
         this.y = y;
-        this.dis = dis;
+        this.distance = distance;
     }
 
-    public String toString() {
-        return "x: " + x + " y: " + y + " distance: " + dis;
-    }
 }
