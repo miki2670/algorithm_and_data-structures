@@ -30,7 +30,7 @@ public class Tree {
         int xMoves[] = { +1, +2, +2, +1, -1, -2, -2, -1 };
         int yMoves[] = { +2, +1, -1, -2, -2, -1, +1, +2 };
 
-        // knight's starting position i.e root into tree
+        // insert knight's starting position i.e root into tree
         Node currentNode = this.root;
         this.insertNode(currentNode);
 
@@ -60,7 +60,8 @@ public class Tree {
                 return currentNode.distance;
             }
 
-            // set next 8 moves to visited cells if move is inside of board
+            // loop through next 8 possible moves
+            // and set cell to visited if move is inside of the board and add that move node to tree
             for (int i = 0; i < 8; i++) {
                 x = currentNode.x + xMoves[i];
                 y = currentNode.y + yMoves[i];
@@ -71,6 +72,7 @@ public class Tree {
                     this.insertNode(new Node(x,y,currentNode.distance + 1));
                 }
             }
+            // go to next node
             currentNode = this.nodes.get(nodeCounter++);
         }
 
@@ -83,6 +85,7 @@ public class Tree {
         this.nodes.add(node);
     }
 
+    // check if position is inside the board
     public boolean isInsideOfBoard(int x, int y, int board_height, int board_width) {
         if (x >= 0 && x <= board_width && y >= 0 && y <= board_height) {
             return true;
