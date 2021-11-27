@@ -55,13 +55,13 @@ public class Tree {
         // while tree has nodes
         while (!this.nodes.isEmpty()) {
 
-            // if target position found return distance
+            // if target position found return current node's distance
             if(currentNode.x == knight_end_x_position && currentNode.y == knight_end_y_position) {
                 return currentNode.distance;
             }
 
             // loop through next 8 possible moves
-            // and set cell to visited if move is inside of the board and add that move node to tree
+            // and set cell to visited if move is inside the board and add that move node to tree
             for (int i = 0; i < 8; i++) {
                 x = currentNode.x + xMoves[i];
                 y = currentNode.y + yMoves[i];
