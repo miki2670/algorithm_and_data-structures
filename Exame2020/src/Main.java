@@ -46,13 +46,14 @@ public class Main {
         if (x[n-1] == val) {
             return 1 + getNumberEqual(x, n-1, val); // if we find match plus result with 1
         }
-
+        
         return getNumberEqual(x, n-1, val); // if no match, continue
     }
 
     // Problem 3
     // Solve the following recurrence. All relevant steps must be shown leading to a Big-Oh answer.
     // T(N) = T(N-1)+(N-1)
+
 
 
 }
