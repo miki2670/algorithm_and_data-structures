@@ -76,7 +76,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Portfolio2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -109,6 +109,7 @@
       <workItem from="1636369927051" duration="1000" />
       <workItem from="1636389240426" duration="2122000" />
       <workItem from="1637331293128" duration="20000" />
+      <workItem from="1638194321398" duration="4542000" />
     </task>
     <servers />
   </component>
