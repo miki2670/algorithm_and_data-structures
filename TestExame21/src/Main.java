@@ -103,6 +103,9 @@ public class Main {
     // First insertion of Q:
     // Index 7 is free so insertion of Q will go into index 7.
     // Second insertion of C:
+    // 8^2 = 64 % 11 = 9. Index 9 is free so insertion of C will go into index 9.
+    // Third insertion of H:
+    // 2^2 = 4. Index 4 is free so insertion of H will go into index 4.
 
 
 }

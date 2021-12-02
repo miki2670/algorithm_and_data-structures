@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a075665-9b95-49c6-ae27-062e3da55e00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TestExame21.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exame2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exame2020/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -102,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638428595170</updated>
-      <workItem from="1638428596669" duration="6319000" />
+      <workItem from="1638428596669" duration="6781000" />
     </task>
     <servers />
   </component>
