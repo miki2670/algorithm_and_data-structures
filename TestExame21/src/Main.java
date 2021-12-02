@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Main {
 
@@ -19,18 +18,20 @@ public class Main {
         int x = 0; // O(1)
         for (int i = 1; i <= Math.sqrt(N); i++) { //square root; C++: #include <math.h>
             for (int j = 1; j <= N; j++) // O(n)
-                for (int k = 1; k < N;)  { // O(n)
+                for (int k = 1; k < N;)  { // O(log n)
                     x++; // O(1)
-                    k = k * 2; // O(1)
+                    k = k * 2; // log n
                 }
         } return x;
     }
-    // Answer: O(n^1/2 * n^2)
+    // My Answer: O(n^1/2 * n^2)
+    // Correct answer: log N N^3/2
+    // i missed log n but else it was correct
 
 
     // Problem 2
     // Write a recursive method
-    // Answer:
+    // My Answer:
     static int sumDivisibleBy3 (int n) {
 
         if (n <= 0) {
@@ -72,7 +73,7 @@ public class Main {
         }
 
         if (solutions.size() > 1) {
-            return String.valueOf(solutions.get(solutions.size()-1));
+            return (String) solutions.get(solutions.size()-1);
         }
 
         return "error";
@@ -86,6 +87,7 @@ public class Main {
     // Problem 6
     // Answer:
     // Yes it can
+    // Correct answer: Draw it as a binary tree
 
     // Problem 7
     // 0 |
@@ -100,12 +102,14 @@ public class Main {
     // 9 |
     // 10 | F
     // Answer
+    // Steps
+    // 1^2+inputIndex % 11
+    // 2^2+inputIndex % 11
+
     // First insertion of Q:
     // Index 7 is free so insertion of Q will go into index 7.
     // Second insertion of C:
     // 8^2 = 64 % 11 = 9. Index 9 is free so insertion of C will go into index 9.
     // Third insertion of H:
     // 2^2 = 4. Index 4 is free so insertion of H will go into index 4.
-
-
 }
