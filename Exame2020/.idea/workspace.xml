@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="242480e2-ddb4-4e59-b8c6-85c48224316c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../TestExame21/.idea/TestExame21.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestExame21/untitled104.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +75,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestExame21" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -109,11 +110,23 @@
       <workItem from="1636369927051" duration="1000" />
       <workItem from="1636389240426" duration="2122000" />
       <workItem from="1637331293128" duration="20000" />
-      <workItem from="1638194321398" duration="4542000" />
+      <workItem from="1638194321398" duration="4573000" />
+      <workItem from="1638428469014" duration="1007000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
