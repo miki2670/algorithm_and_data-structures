@@ -10,7 +10,7 @@ public class Main {
         q.enqueue(50);
         q.dequeue();
         System.out.println("Size of Queue is " + q.size());
-        q.enqueue(50);
+        q.enqueue(60);
         System.out.println("Front item is " + q.front());
         System.out.println("Rear item is " + q.rear());
         System.out.println("Is Queue full : " + q.isFull());
