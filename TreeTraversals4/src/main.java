@@ -10,17 +10,28 @@ public class main {
         tree.root.left.right = new Node(5);
 
         System.out.println(
-                "Preorder traversal of binary tree is ");
+                "Preorder traversal ");
         tree.printPreorder();
 
         System.out.println(
-                "\nInorder traversal of binary tree is ");
+                "\nInorder traversal ");
         tree.printInorder();
 
         System.out.println(
-                "\nPostorder traversal of binary tree is ");
+                "\nPostorder traversal ");
         tree.printPostorder();
 
+        System.out.println(
+                "\nLevel order traversal ");
+        tree.printLevelorder();
+
+        System.out.println(
+                "\nInternal Path Length ");
+        tree.printInternalPathLength();
+
+        System.out.println(
+                "\nExternal Path Length ");
+        tree.printExternalPathLength();
     }
 
 
