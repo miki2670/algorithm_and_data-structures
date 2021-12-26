@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a075665-9b95-49c6-ae27-062e3da55e00" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exame2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exame2020/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +101,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638428595170</updated>
-      <workItem from="1638428596669" duration="9408000" />
+      <workItem from="1638428596669" duration="9667000" />
+      <workItem from="1639222775543" duration="1937000" />
+      <workItem from="1639994652571" duration="1112000" />
+      <workItem from="1640510292390" duration="856000" />
     </task>
     <servers />
   </component>
